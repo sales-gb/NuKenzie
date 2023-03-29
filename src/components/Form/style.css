@@ -1,0 +1,108 @@
+.container-form {
+  padding: 38px 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--color-grey-2);
+  border-radius: 8px;
+}
+
+.container-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+}
+
+.container-form form .description-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-form form .description-box label {
+  font-size: var(--body);
+  margin-bottom: 10px;
+  color: var(--color-grey-4);
+}
+
+.container-form form .description-box input {
+  width: 100%;
+  background: var(--color-grey-1);
+  border: none;
+  height: 50px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: var(--color-grey-3);
+}
+
+.container-form form .description-box input::placeholder {
+  color: var(--color-grey-3);
+}
+
+.container-form form .description-box span {
+  font-size: var(--body);
+  color: var(--color-grey-3);
+}
+
+.container-form form .value-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-form form .value-box .value-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.container-form form .value-box .value-info label {
+  font-size: var(--body);
+  color: var(--color-grey-3);
+}
+
+.container-form form .value-box .value-info input {
+  width: 100%;
+  background: var(--color-grey-1);
+  border: none;
+  height: 50px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: var(--color-grey-3);
+}
+
+.container-form form .value-box .value-info input::placeholder {
+  color: var(--color-grey-3);
+}
+
+.container-form form .value-box .type-info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.container-form form .value-box .type-info label {
+  font-size: var(--body);
+  color: var(--color-grey-3);
+}
+
+.container-form form .value-box .type-info select {
+  width: 100%;
+  background: var(--color-grey-1);
+  border: none;
+  height: 50px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  color: var(--color-grey-3);
+}
+
+@media (min-width: 800px) {
+  .container-form form {
+    width: 30vw;
+  }
+}

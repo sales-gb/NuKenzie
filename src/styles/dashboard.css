@@ -1,0 +1,15 @@
+.dash-container {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+@media (min-width: 800px) {
+  .dash-container {
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+  }
+}

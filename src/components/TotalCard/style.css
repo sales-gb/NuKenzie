@@ -1,0 +1,31 @@
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 24px;
+  border: 2px solid var(--color-grey-2);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.total-container .total-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.total-container .total-text p {
+  font-size: var(--Headline);
+  color: var(--color-grey-4);
+}
+
+.total-container .total-text span {
+  font-size: var(--minus-font);
+  color: var(--color-grey-3);
+}
+
+.total-container .total-value .value {
+  color: var(--color-primary-2);
+  font-weight: 700;
+  font-size: var(--Headline);
+}

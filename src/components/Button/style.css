@@ -1,0 +1,31 @@
+.pink-btn {
+  width: 100%;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  padding: 14px 0;
+  text-align: center;
+  border: none;
+  color: var(--white-fixed);
+  font-size: var(--Headline);
+}
+
+header .pink-btn {
+  width: 30%;
+  background: var(--color-grey-2);
+  color: var(--color-grey-3);
+}
+
+@media (min-width: 800px) {
+  .pink-btn {
+    max-width: 80%;
+  }
+  header .pink-btn {
+    width: 7%;
+  }
+
+  form .pink-btn {
+    max-width: 100%;
+  }
+}
