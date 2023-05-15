@@ -17,4 +17,4 @@ O objetivo deste projeto é fornecer uma ferramenta útil para ajudar as pessoas
 <img src="https://res.cloudinary.com/dhavjx2gp/image/upload/v1682014514/NuKenzie-No-Card_cofmja.png" alt="Tela inicial NuKenzie">
 
 ### Tela inicial com cards
-<img src="https://res.cloudinary.com/dhavjx2gp/image/upload/v1682014514/NuKenzie-Cards_yobjdn.png" alt="Tela inicial NuKenzie">
+<img src="https://res.cloudinary.com/dhavjx2gp/image/upload/v1684184714/Home-NuKenzie_nlfk7y.svg" alt="Tela inicial NuKenzie">
